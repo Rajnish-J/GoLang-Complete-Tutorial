@@ -1,0 +1,46 @@
+ERROR:2025/05/31 15:35:57 InvestDAO.go:23: Insert error: Error 1054 (42S22): Unknown column 'InvestID' in 'field list'
+ERROR:2025/05/31 15:35:57 InvestService.go:17: Error 500: Failed to add investment
+ERROR:2025/05/31 15:39:30 InvestDAO.go:23: Insert error: Error 1054 (42S22): Unknown column 'ClientID' in 'field list'
+ERROR:2025/05/31 15:39:30 InvestService.go:17: Error 500: Failed to add investment
+ERROR:2025/05/31 15:46:55 InvestDAO.go:23: Insert error: Error 1054 (42S22): Unknown column 'ClientID' in 'field list'
+ERROR:2025/05/31 15:46:55 InvestService.go:17: Error 500: Failed to add investment
+ERROR:2025/05/31 15:49:44 InvestDAO.go:23: Insert error: Error 1054 (42S22): Unknown column 'ClientID' in 'field list'
+ERROR:2025/05/31 15:49:44 InvestService.go:17: Error 500: Failed to add investment
+ERROR:2025/05/31 15:50:18 InvestDAO.go:23: Insert error: Error 1054 (42S22): Unknown column 'ClientID' in 'field list'
+ERROR:2025/05/31 15:50:18 InvestService.go:17: Error 500: Failed to add investment
+ERROR:2025/05/31 15:56:08 InvestDAO.go:23: Insert error: Error 1054 (42S22): Unknown column 'InvestAmount' in 'field list'
+ERROR:2025/05/31 15:56:08 InvestService.go:17: Error 500: Failed to add investment
+ERROR:2025/05/31 15:58:23 InvestDAO.go:23: Insert error: Error 1292 (22007): Incorrect date value: '0000-00-00' for column 'date_of_invest' at row 1
+ERROR:2025/05/31 15:58:23 InvestService.go:17: Error 500: Failed to add investment
+INFO:2025/05/31 16:07:36 InvestDAO.go:27: Investment (investId=0) added succesfully.
+INFO:2025/05/31 16:07:36 InvestService.go:24: Investment Added successfully
+INFO:2025/05/31 16:09:25 InvestDAO.go:27: Investment (investId=0) added succesfully.
+INFO:2025/05/31 16:09:25 InvestService.go:24: Investment Added successfully
+INFO:2025/05/31 22:59:51 DBConnections.go:23: Database connected
+ERROR:2025/05/31 22:59:51 InvestDAO.go:47: Find error: sql: expected 0 arguments, got 1
+ERROR:2025/05/31 22:59:51 InvestService.go:31: Error 500: Failed to fetch the Investment
+INFO:2025/05/31 23:01:10 DBConnections.go:23: Database connected
+ERROR:2025/05/31 23:01:10 InvestDAO.go:47: Find error: sql: expected 11 destination arguments in Scan, not 7
+ERROR:2025/05/31 23:01:10 InvestService.go:31: Error 500: Failed to fetch the Investment
+INFO:2025/05/31 23:04:51 DBConnections.go:23: Database connected
+ERROR:2025/05/31 23:04:51 InvestDAO.go:47: Find error: sql: Scan error on column index 2, name "invest_amount": unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+ERROR:2025/05/31 23:04:51 InvestService.go:31: Error 500: Failed to fetch the Investment
+INFO:2025/05/31 23:06:56 DBConnections.go:23: Database connected
+ERROR:2025/05/31 23:06:56 InvestDAO.go:61: Find error: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 14
+ERROR:2025/05/31 23:06:56 InvestService.go:31: Error 500: Failed to fetch the Investment
+INFO:2025/05/31 23:07:33 DBConnections.go:23: Database connected
+ERROR:2025/05/31 23:07:33 InvestDAO.go:60: Find error: Error 1054 (42S22): Unknown column 'InvestID' in 'field list'
+ERROR:2025/05/31 23:07:33 InvestService.go:31: Error 500: Failed to fetch the Investment
+INFO:2025/05/31 23:08:59 DBConnections.go:23: Database connected
+ERROR:2025/05/31 23:08:59 InvestDAO.go:60: Find error: sql: Scan error on column index 2, name "invest_amount": unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+ERROR:2025/05/31 23:08:59 InvestService.go:31: Error 500: Failed to fetch the Investment
+INFO:2025/05/31 23:09:55 DBConnections.go:23: Database connected
+ERROR:2025/05/31 23:09:55 InvestDAO.go:72: Find error: sql: Scan error on column index 3, name "date_of_invest": unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+ERROR:2025/05/31 23:09:55 InvestService.go:31: Error 500: Failed to fetch the Investment
+INFO:2025/05/31 23:13:03 DBConnections.go:24: Database connected
+INFO:2025/05/31 23:13:03 InvestService.go:34: Investment fetched successfully &{1 1 12121 2025-05-02 00:00:00 +0000 UTC fund icici 2 1 2025-05-20 00:00:00 +0000 UTC 5 active}
+INFO:2025/05/31 23:13:22 DBConnections.go:24: Database connected
+INFO:2025/05/31 23:13:22 InvestService.go:34: Investment fetched successfully &{1 1 12121 2025-05-02 00:00:00 +0000 UTC fund icici 2 1 2025-05-20 00:00:00 +0000 UTC 5 active}
+INFO:2025/06/01 13:10:24 DBConnections.go:24: Database connected
+INFO:2025/06/01 13:10:24 InvestDAO.go:28: Investment (investId=0) added succesfully.
+INFO:2025/06/01 13:10:24 InvestService.go:24: Investment Added successfully
